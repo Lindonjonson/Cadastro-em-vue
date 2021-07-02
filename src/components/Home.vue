@@ -11,17 +11,17 @@
 
                     <div class="form-group mr-1">
                         <label>Nome</label>
-                        <input type="text" class="form-control" placeholder="Nome Completo..." v-model="pessoa.nome">
+                        <input type="text" class="form-control" placeholder="Digite seu nome..." v-model="pessoa.nome">
                     </div>
                     <div class="form-group mr-1">
                         <label>Sobrenome</label>
-                        <input type="text" class="form-control" placeholder="Nome Completo..." v-model="pessoa.sobrenome">
+                        <input type="text" class="form-control" placeholder="Digite seu sobrenome..." v-model="pessoa.sobrenome">
                     </div>
 
 
                     <div class="form-group mr-1">
                         <label>E-mail</label>
-                        <input type="email" class="form-control" placeholder="Seu melhor email..." v-model="pessoa.email">
+                        <input type="email" class="form-control" placeholder="digite seu e-mail..." v-model="pessoa.email">
                     </div>
 
                     <div class="form-group mr-1">
